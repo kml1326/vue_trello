@@ -1,9 +1,20 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+  <div class="">
+    
+      <!-- <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> -->
+      <nav class="navbar navbar-dark" style="background-color:#026aa7">
+        <span>
+          <i class="fas fa-home"></i>
+          <span><i class="fas fa-chalkboard"></i>Boards</span>
+        </span>
+        Trello
+        <span>
+          <i class="fas fa-plus"></i>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="far fa-bell"></i>
+        </span>
+      </nav>
     <router-view />
   </div>
 </template>
